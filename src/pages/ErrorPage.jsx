@@ -1,18 +1,17 @@
-
-import { useEffect, useState } from "react";
+   import ErrorPage from "./pages/ErrorPage";
 import NavBar from "../components/NavBar";
 
-function Actors() {
+function ErrorPage() {
   return (
     <>
       <header>
         <NavBar />
       </header>
       <main>
-        {/* Actor info here! */}
+        <h1>Oops! Looks like something went wrong.</h1>
       </main>
     </>
   );
 }
 
-export default Actors;
+export default ErrorPage;
